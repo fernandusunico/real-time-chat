@@ -1,17 +1,17 @@
 {
   "name": "chat",
   "version": "1.0.0",
-  "description": "Real Time chat using sockets.io",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "nodemon src/server.js"
   },
-  "author": "amgad atef mohamed",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.17.2",
+    "body-parser": "^1.20.2",
     "ejs": "^2.5.7",
     "express": "^4.15.4",
+    "http-status": "^1.6.2",
+    "joi": "^17.9.2",
     "jsonwebtoken": "^7.4.3",
     "md5": "^2.2.1",
     "mysql2": "^1.4.1",
@@ -20,6 +20,6 @@
     "socket.io": "^2.0.3"
   },
   "devDependencies": {
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.19.4"
   }
 }

@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "chat",
+    "password": "SmartWork@123",
+    "database": "chat",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "chat",
+    "password": "SmartWork@123",
+    "database": "chat",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "chat",
+    "password": "SmartWork@123",
+    "database": "chat",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
